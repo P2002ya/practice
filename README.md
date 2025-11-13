@@ -1,4 +1,4 @@
-# 🧠 HR Analytics Dashboard | Power BI
+# HR Analytics Dashboard | Power BI
 
 *An end-to-end HR Analytics Dashboard in Power BI to analyze employee attendance, leave patterns, and workforce trends.*
 
@@ -25,7 +25,7 @@
 ---
 
 
-## 📌 Project Overview
+## Project Overview
 This project is inspired by **Codebasics' HR Analytics** guided project.  
 It helps HR teams analyze employee attendance, leave behavior, and work preferences — enabling **data-driven workforce decisions** and improved productivity insights.
 
@@ -33,12 +33,12 @@ It helps HR teams analyze employee attendance, leave behavior, and work preferen
 
 ---
 
-## 🎯 Objective
+## Objective
 To analyze employee presence, work-from-home, and leave data, helping HR identify trends and take **data-backed decisions** to optimize attendance policies.
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 The dataset includes **employee attendance data (May–July)** with the following fields:  
 - Employee ID & Department  
 - Attendance date  
@@ -50,7 +50,7 @@ The dataset includes **employee attendance data (May–July)** with the followin
 
 ---
 
-## 🧩 Data Cleaning & Transformation (Power Query)
+## Data Cleaning & Transformation (Power Query)
 Steps performed:  
 1. Used the first row as headers  
 2. Removed unnecessary top rows  
@@ -64,14 +64,14 @@ Steps performed:
 
 ---
 
-## 📊 Data Modeling
+## Data Modeling
 - Established relationships between fact and dimension tables  
 - Created a **Measures Table** for all DAX calculations  
 - Followed a **star schema** for scalability and performance  
 
 ---
 
-## 🧮 DAX Calculations
+## DAX Calculations
 Key measures created:  
 - `Presence %`  
 - `Sick Leave %`  
@@ -83,7 +83,7 @@ Key measures created:
 
 ---
 
-## 🎨 Dashboard Design
+## Dashboard Design
 Power BI visuals used:  
 - **Cards:** Summary of key HR metrics  
 - **Line Chart:** Attendance trends over time  
@@ -94,7 +94,7 @@ Power BI visuals used:
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 - **Power BI Desktop**  
 - **Power Query (M Language)**  
 - **DAX**  
@@ -102,7 +102,7 @@ Power BI visuals used:
 
 ---
 
-## 💡 Key Learnings / Achievements
+## Key Learnings / Achievements
 - Automated repetitive HR data cleaning using **Power Query Functions & Invocations**  
 - Built reusable DAX measures for HR KPIs, improving **dashboard efficiency**  
 - Designed interactive visuals for **executive-level insights**  
@@ -110,8 +110,8 @@ Power BI visuals used:
 
 ---
 
-## 📁 Project Structure
-***
+## Project Structure
+
 HR_Analytics_Project_PowerBi/
 ├── Dataset/
 │ └── Attendance-Sheet-2022-2023.xlsx
